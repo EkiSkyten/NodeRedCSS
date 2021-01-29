@@ -3,7 +3,7 @@ Node Red Global CSS file in the form of UI template file with formatted text ver
 
 This UI template sets up global styling for the rest of the NR app.  I hate material design, and prefer to go at it rogue and just make stuff I like.  I do not expect anyone to like what I did, but it shows how to style your own projects
 
-This ui template file will be require for all the other NR flows I commit to Git.
+This ui template file will be required for all the other NR flows I commit to Git.
 
 Start here!
 
