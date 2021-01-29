@@ -5,6 +5,10 @@ This UI template sets up global styling for the rest of the NR app.  I hate mate
 
 This ui template file will be required for all the other NR flows I commit to Git.
 
+This flow is dependant on  the following:
+
++ node-red-dashboard
+
 Start here!
 
 Disclaimer:
