@@ -11,11 +11,11 @@ This flow is dependant on  the following:
 
 I lumped all the images into this global repo.  You need to configure Node Red to serve up static resources.  For me, that meant creating a folder in my windows user directory like below and then copy all the resources into that folder.
 
-+ C:/users/<your windows user here>/.node-red/static
++ C:/users/<<your windows user here>/.node-red/static
 
 Then you need to make sure you have configured the 'settings.js' file to point to that folder
 
-+ httpStatic: 'C:/Users/<your windows user here>/.node-red/static'
++ httpStatic: 'C:/Users/<<your windows user here>/.node-red/static'
 
 Start here!
 
