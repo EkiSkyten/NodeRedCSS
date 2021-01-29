@@ -1,1 +1,159 @@
+<style>
+    body.nr-dashboard-theme md-content md-card {
+          background-color: #33333300;
+          color: #eeeeee;
+        }
 
+    .nr-dashboard-theme ui-card-panel {
+      background-color: #3333335F;
+      border: 1px solid #5555555F;
+    }
+    
+    md-sidenav > md-list > md-list-item{
+        width:135px !important;
+    }
+
+    body {
+        background-image: url("/sunrise.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 100%;
+    }
+    
+    body.nr-dashboard-theme md-sidenav {
+        background-color: #3333338F;
+    }
+
+    .masonry-container > .visible {
+        opacity: 1;
+     }
+    
+    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {
+        background-color: #2929298F;
+        color: #EBA678;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;    
+        margin-left: 8px;
+    }
+    
+    .nr-dashboard-text {
+        padding: 8px;
+    }
+
+    .nr-dashboard-theme .nr-dashboard-slider .md-sign {
+        background-color: #EBA67800;
+    }
+    .nr-dashboard-theme .nr-dashboard-slider .md-sign:after {
+        border-top-color: #EBA67800 !important;
+    }
+    .nr-dashboard-theme .nr-dashboard-slider .md-track-fill {
+        background-color: #EBA678;
+    }
+    .nr-dashboard-theme .nr-dashboard-slider .md-track {
+        background-color: #EBA678;
+    }
+
+    .eki5 h5 {
+        padding: 0px;
+    }
+    
+    .value {
+        font-size: 15px;
+    }
+    
+    .center {
+      margin: 0;
+      padding-top: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align:center;
+    }
+    
+    .center2 {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .center3 {
+      background-color: #2929298F;
+      margin: 0;
+      padding-top: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align:center;
+    }
+
+    .vcenter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+    }
+
+    .nr-dashboard-cardcontainer {
+      margin-left:  5px
+    }
+    
+    .nr-dashboard-cardtitle {
+        background-color: #2929298F;
+        vertical-align: middle;
+        padding-top: 6px;
+        padding-left: 8px;
+        border: 1px #262626;
+    }
+    
+    .fixedaspect {
+        height: auto;        
+    }
+
+    #Weather_Current {
+        padding-bottom:20px;
+    }
+
+    #Weather_NOAA {
+        padding-bottom:20px;
+    }
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+          transition: all 100ms ease-in;
+  -webkit-filter: brightness(1.8) grayscale(1) opacity(.5);
+     -moz-filter: brightness(1.8) grayscale(1) opacity(.5);
+          filter: brightness(1.8) grayscale(1) opacity(.5);  
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+          transition: all 100ms ease-in;
+  -webkit-filter: brightness(1.8) opacity(1);
+     -moz-filter: brightness(1.8) opacity(1);
+          filter: brightness(1.8) opacity(1);  
+}
+
+</style>
+
+<script>
+    var pwrButton = new Array("/off-button.png", "/on-button.png");
+    var muteButton = new Array("/mute-off.png", "/mute-on.png");
+</script>
